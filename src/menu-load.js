@@ -52,4 +52,4 @@ const loadMenu = () => {
     content.appendChild(menu.menuContainer);
 }
 
-export default loadMenu();
+export default loadMenu;

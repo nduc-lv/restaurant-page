@@ -1,5 +1,6 @@
 const content = document.querySelector('#content');
 
+//function for create tag
 const create = (tag, className) => {
     const e = document.createElement(tag);
     e.classList.add(className);
@@ -7,6 +8,7 @@ const create = (tag, className) => {
 }
 
 const createContact = (name, info, image) => {
+    //create elements
     const contactContainer = create("div", "contact-container");
     const contactName = create("div", "contact-name");
     const contactInfo = create("div", "contact-info");
